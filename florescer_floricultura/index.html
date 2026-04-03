@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Florescer — Floricultura online premium com arranjos exclusivos feitos à mão. Flores frescas entregues no mesmo dia em Maceió e região."
+    />
+    <title>Florescer | Floricultura Online</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+    <div class="cart-notif" id="cartNotif">🌸 Adicionado ao carrinho!</div>
+
+    <!-- NAV -->
+    <nav id="navbar">
+      <div class="logo">
+        <img
+          src="src/images/logo_florescer.png"
+          alt="Logo Florescer"
+          class="logo-img"
+        />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#categories">Categorias</a></li>
+        <li><a href="#products">Arranjos</a></li>
+        <li><a href="#features">Serviços</a></li>
+        <li><a href="#testimonials">Clientes</a></li>
+        <li><a href="#newsletter" class="nav-cta">Comprar</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-content">
+        <p class="hero-tag">✦ Floricultura Online Premium</p>
+        <h1 class="hero-title">
+          Flores que<br />
+          <em>dizem</em>
+          <br />
+          o que as palavras não alcançam.
+        </h1>
+        <p class="hero-desc">
+          Curadoria de arranjos exclusivos, feitos à mão com flores
+          selecionadas. Receba o frescor da natureza na sua porta com a
+          sofisticação que cada momento exige.
+        </p>
+        <div class="hero-actions">
+          <a href="#products" class="btn-primary">Ver Arranjos</a>
+          <a href="#features" class="btn-ghost">Como funciona →</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-side">
+          <div class="flower-card" style="background: #f2d6c8">
+            <img src="src/images/rosas.png" alt="Rosas" class="flower-img" />
+            <div class="flower-card-overlay"><span>Rosas</span></div>
+          </div>
+          <div class="flower-card" style="background: #e8e0f0">
+            <img
+              src="src/images/girassois.png"
+              alt="Girassóis"
+              class="flower-img"
+            />
+            <div class="flower-card-overlay"><span>Girassóis</span></div>
+          </div>
+        </div>
+
+        <div class="hero-side hero-side--right">
+          <div class="flower-card" style="background: #dde8d8">
+            <img
+              src="src/images/tulipas.png"
+              alt="Tulipas"
+              class="flower-img"
+            />
+            <div class="flower-card-overlay"><span>Tulipas</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bg-circle"></div>
+    </section>
+
+    <!-- ESTATÍSTICAS -->
+    <div class="stats-bar">
+      <div class="stat">
+        <span class="stat-number" data-count="12000">0</span>
+        <span class="stat-label">Clientes Felizes</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" data-count="350">0</span>
+        <span class="stat-label">Arranjos Diferentes</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" data-count="98">0</span>
+        <span class="stat-label">% Satisfação</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" data-count="24">0</span>
+        <span class="stat-label">Horas de Entrega</span>
+      </div>
+    </div>
+
+    <!-- CATEGORIAS -->
+    <section id="categories">
+      <div class="categories-header">
+        <p class="section-tag">✦ Explore</p>
+        <h2 class="section-title">Encontre o arranjo<br /><em>perfeito</em></h2>
+      </div>
+      <div class="categories-grid reveal">
+        <div class="cat-card">
+          <img src="src/images/cat_rosas.jpg" alt="Rosas" class="cat-icon" />
+          <p class="cat-name">Rosas</p>
+          <p class="cat-count">48 produtos</p>
+        </div>
+        <div class="cat-card">
+          <img
+            src="src/images/cat_tropicais.jpg"
+            alt="Tropicais"
+            class="cat-icon"
+          />
+          <p class="cat-name">Tropicais</p>
+          <p class="cat-count">32 produtos</p>
+        </div>
+        <div class="cat-card">
+          <img
+            src="src/images/cat_primavera.jpg"
+            alt="Primavera"
+            class="cat-icon"
+          />
+          <p class="cat-name">Primavera</p>
+          <p class="cat-count">60 produtos</p>
+        </div>
+        <div class="cat-card">
+          <img src="src/images/cat_buques.jpg" alt="Buquês" class="cat-icon" />
+          <p class="cat-name">Buquês</p>
+          <p class="cat-count">75 produtos</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section id="products">
+      <div class="products-header">
+        <div>
+          <p class="section-tag">✦ Destaques</p>
+          <h2 class="section-title">Arranjos <em>preferidos</em></h2>
+        </div>
+        <a href="#" class="see-all">Ver todos →</a>
+      </div>
+      <div class="products-grid reveal">
+        <div class="product-card">
+          <div class="product-img">
+            <img src="src/images/produtos_rosas.png" alt="Buquê de Rosas" />
+            <span class="product-badge">Mais Vendido</span>
+            <button class="product-add" onclick="addToCart()">+</button>
+          </div>
+          <div class="product-info">
+            <p class="product-name">Buquê de Rosas Vermelhas</p>
+            <p class="product-desc">
+              Rosas premium colombianas com folhagem e embalagem luxo
+            </p>
+            <div class="product-footer">
+              <span class="product-price">R$ 149</span>
+              <span class="product-rating">★★★★★</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img" style="background: #dde8d8">
+            <img src="src/images/produto_tulipas.png" alt="Mix de Tulipas" />
+            <span class="product-badge">Novo</span>
+            <button class="product-add" onclick="addToCart()">+</button>
+          </div>
+          <div class="product-info">
+            <p class="product-name">Mix de Tulipas Holandesas</p>
+            <p class="product-desc">
+              20 tulipas coloridas importadas, frescas e perfumadas
+            </p>
+            <div class="product-footer">
+              <span class="product-price">R$ 189</span>
+              <span class="product-rating">★★★★★</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img" style="background: #e8e0f0">
+            <img
+              src="src/images/produto_jardim.png"
+              alt="Arranjo Jardim Encantado"
+            />
+            <button class="product-add" onclick="addToCart()">+</button>
+          </div>
+          <div class="product-info">
+            <p class="product-name">Arranjo Jardim Encantado</p>
+            <p class="product-desc">
+              Composição com 5 espécies diferentes em vaso de cerâmica
+            </p>
+            <div class="product-footer">
+              <span class="product-price">R$ 259</span>
+              <span class="product-rating">★★★★☆</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features">
+      <p class="section-tag" style="color: var(--gold)">
+        ✦ Por que nos escolher
+      </p>
+      <h2 class="section-title" style="color: #fff">
+        Cuidado em <em>cada detalhe</em>
+      </h2>
+      <div class="features-grid reveal">
+        <div class="feature">
+          <span class="feature-icon">🌿</span>
+          <p class="feature-title">Flores Sempre Frescas</p>
+          <p class="feature-text">
+            Trabalhamos com produtores locais e importados para garantir que
+            você receba apenas flores colhidas nas últimas 24 horas.
+          </p>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">🚚</span>
+          <p class="feature-title">Entrega no Mesmo Dia</p>
+          <p class="feature-text">
+            Pedidos até as 14h são entregues no mesmo dia com embalagem especial
+            que mantém a frescura das flores.
+          </p>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">💝</span>
+          <p class="feature-title">Personalização Total</p>
+          <p class="feature-text">
+            Adicione mensagens, escolha as cores e customize seu arranjo. Cada
+            entrega é uma experiência única e inesquecível.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+      <div class="testimonials-header">
+        <p class="section-tag">✦ Depoimentos</p>
+        <h2 class="section-title">O que nossos <em>clientes</em> dizem</h2>
+      </div>
+      <div class="testimonials-grid reveal">
+        <div class="testimonial">
+          <p class="testimonial-text">
+            As flores chegaram perfeitas, muito mais bonitas do que esperava. A
+            embalagem era linda e minha namorada ficou encantada!
+          </p>
+          <div class="testimonial-author">
+            <img
+              src="src/images/lucas_mendes.png"
+              alt="Lucas Mendes"
+              class="author-avatar"
+            />
+            <div>
+              <p class="author-name">Lucas Mendes</p>
+              <p class="author-detail">Marechal Deodoro · ★★★★★</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-text">
+            Simplesmente perfeito! Encomendei para o aniversário da minha mãe e
+            ela disse que foi o presente mais lindo que já recebeu.
+          </p>
+          <div class="testimonial-author">
+            <img
+              src="src/images/ana_paula.png"
+              alt="Ana Paula"
+              class="author-avatar"
+            />
+            <div>
+              <p class="author-name">Ana Paula Souza</p>
+              <p class="author-detail">Maceió · ★★★★★</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-text">
+            Entrega pontual, flores lindíssimas e um atendimento incrível. Com
+            certeza voltarei a comprar. Recomendo muito!
+          </p>
+          <div class="testimonial-author">
+            <img
+              src="src/images/carla_ferreira.png"
+              alt="Carla Ferreira"
+              class="author-avatar"
+            />
+            <div>
+              <p class="author-name">Carla Ferreira</p>
+              <p class="author-detail">Arapiraca · ★★★★★</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter">
+      <p class="section-tag">✦ Fique por dentro</p>
+      <h2 class="section-title">
+        10% de desconto<br />na <em>primeira compra</em>
+      </h2>
+      <p style="color: #555; margin-top: 12px; font-size: 15px">
+        Cadastre seu e-mail e receba ofertas exclusivas e dicas de como cuidar
+        das suas flores.
+      </p>
+      <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+        <input type="email" placeholder="Seu melhor e-mail" required />
+        <button type="submit">Quero desconto</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo">flore<span>scer</span></span>
+          <p>
+            Levamos beleza e amor em cada entrega. Flores frescas, arranjos
+            únicos e um serviço que faz a diferença.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Produtos</h4>
+          <ul>
+            <li><a href="#">Rosas</a></li>
+            <li><a href="#">Buquês</a></li>
+            <li><a href="#">Tropicais</a></li>
+            <li><a href="#">Plantas</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Sustentabilidade</a></li>
+            <li><a href="#">Carreiras</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Suporte</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Rastrear pedido</a></li>
+            <li><a href="#">Política de troca</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Florescer. Todos os direitos reservados.</p>
+        <div class="footer-social">
+          <a href="#" class="social-link">
+            <img src="src/images/instagram.png" alt="Instagram" />
+          </a>
+          <a href="#" class="social-link">
+            <img src="src/images/whatsapp.png" alt="WhatsApp" />
+          </a>
+          <a href="#" class="social-link">
+            <img
+              src="src/images/tiktok.png"
+              alt="TikTok"
+              style="filter: brightness(0) invert(1)"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
