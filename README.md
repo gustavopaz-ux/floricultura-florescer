@@ -95,6 +95,5 @@ cd floricultura-florescer
 
 Desenvolvido por [gustavopaz-ux](https://github.com/gustavopaz-ux)
 
-## 👨‍💻 Autor
 
 Desenvolvido por [gustavopaz-ux](https://github.com/gustavopaz-ux)
