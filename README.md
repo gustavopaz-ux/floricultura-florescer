@@ -6,7 +6,8 @@ Landing page premium para floricultura online, desenvolvida com HTML, CSS e Java
 
 ## 📸 Preview
 
-> _Adicione aqui um screenshot da página (arraste uma imagem para o README no GitHub)_
+<img width="1885" height="1001" alt="image" src="https://github.com/user-attachments/assets/27b62b8a-32f9-455f-bc40-9fc6f7bb2a94" />
+
 
 ---
 
